@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5d5ede-59ca-443f-a27a-9f4f7aee04b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CountryData/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopingCart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopingCart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopingCart/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopingCart/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopingCart/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopingCart/Shop.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,27 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ShopingCart/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="81" selection-start-line="33" selection-start-column="81" selection-end-line="33" selection-end-column="81" />
+            <state relative-caret-position="288">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShopingCart/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="936">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShopingCart/Items.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -69,8 +67,8 @@
         <option value="$PROJECT_DIR$/src/RequestHandling/Requests.java" />
         <option value="$PROJECT_DIR$/src/RequestHandling/RequestSystem.java" />
         <option value="$PROJECT_DIR$/src/ShopingCart/Items.java" />
-        <option value="$PROJECT_DIR$/src/ShopingCart/Cart.java" />
         <option value="$PROJECT_DIR$/src/ShopingCart/Shop.java" />
+        <option value="$PROJECT_DIR$/src/ShopingCart/Cart.java" />
       </list>
     </option>
   </component>
@@ -97,12 +95,6 @@
               <item name="CollectionImplementation" type="b2602c69:ProjectViewProjectNode" />
               <item name="CollectionImplementation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionImplementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionImplementation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ShopingCart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,12 +186,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563508401360</updated>
-      <workItem from="1563508405334" duration="11840000" />
+      <workItem from="1563508405334" duration="13430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11840000" />
+    <option name="totallyTimeSpent" value="13430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="836" extended-state="6" />
@@ -278,28 +270,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShopingCart/Items.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShopingCart/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="33" column="81" selection-start-line="33" selection-start-column="81" selection-end-line="33" selection-end-column="81" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShopingCart/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        <state relative-caret-position="936">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShopingCart/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
           </folding>
         </state>
       </provider>

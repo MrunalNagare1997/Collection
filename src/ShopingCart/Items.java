@@ -9,7 +9,7 @@ public class Items {
     Items()
     {
         itemList.put("Tomato",25.0f);
-        itemList.put("Green Chili",20.0f);
+        itemList.put("Green_Chili",20.0f);
         itemList.put("Potato",15.0f);
         itemList.put("Peeper",30.0f);
         itemList.put("Capsicum",25.0f);
@@ -32,5 +32,11 @@ public class Items {
             return true;
         else
             return false;
+    }
+
+    public void showMenu()
+    {
+        System.out.println("........Menu.......");
+        itemList.forEach((I,P) -> System.out.println(I+"\t\t\t"+P));
     }
 }

@@ -1,6 +1,5 @@
 package ShopingCart;
 
-import java.awt.*;
 import java.util.Scanner;
 
 public class Shop {
@@ -12,7 +11,7 @@ public class Shop {
 
         char conti='n';
         do {
-            System.out.println("1. Add to cart.\n2. Remove Item\n3. View Cart\n4. Checkout\n5. Exit");
+            System.out.println("1. Add to cart.\n2. Remove Item\n3. View Cart\n4. Checkout\n5. View Menu\n6. Exit");
             short choice= sc.nextShort();
             switch (choice)
             {
@@ -24,21 +23,41 @@ public class Shop {
                 }
                 case 2:
                 {
+                    if(cart1.isEmpty())
+                    {
+                        System.out.println("Cart is empty...");
+                        break;
+                    }
                     System.out.println("Enter Item to remove...");
                     cart1.removeFromCart(sc.next());
                     break;
                 }
                 case 3:
                 {
+                    if(cart1.isEmpty())
+                    {
+                        System.out.println("Cart is empty...");
+                        break;
+                    }
                     cart1.showCart();
                     break;
                 }
                 case 4:
                 {
+                    if(cart1.isEmpty())
+                    {
+                        System.out.println("Cart is empty...");
+                        break;
+                    }
                     System.out.println(cart1.checkOut());
                     break;
                 }
                 case 5:
+                {
+                    cart1.getMenu();
+                    break;
+                }
+                case 6:
                 {
                     System.exit(0);
                 }
@@ -49,7 +68,7 @@ public class Shop {
                 }
 
             }
-            System.out.println("Continue (Y/N)?");
+            System.out.println("\n\nContinue (Y/N)?");
             conti=sc.next().charAt(0);
         }while(conti=='y');
     }

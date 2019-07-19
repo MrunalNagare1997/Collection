@@ -31,7 +31,7 @@ public class Cart {
 
     public void showCart()
     {
-        cart.forEach((item,quentity) -> System.out.println(item+"  ("+quentity+")"));
+        cart.forEach((item,quantity) -> System.out.println(item+"  ("+quantity+")"));
     }
 
     public float checkOut()
@@ -43,6 +43,16 @@ public class Cart {
             total+= cart.get(key)*menu.getPrice(key);
         }
         return total;
+    }
+
+    public void getMenu()
+    {
+        menu.showMenu();
+    }
+
+    public boolean isEmpty()
+    {
+        return cart.isEmpty();
     }
 
 }
